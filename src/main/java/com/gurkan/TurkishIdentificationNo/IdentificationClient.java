@@ -20,7 +20,7 @@ public class IdentificationClient {
 	
 	public Response checkIdentificationNo()
 	{
-		responseImp = new ResponseImp(); // donecek cevap
+		responseImp = new ResponseImp();
 		List<String> err = new ArrayList<String>();
 		responseImp.setErrors(err);
 		
