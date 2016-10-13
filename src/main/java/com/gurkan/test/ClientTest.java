@@ -22,7 +22,7 @@ public class ClientTest {
 	    	Response response = identificationClient.checkIdentificationNo(); 
 	    	
 	    	// response
-	    	System.out.println(response.getValid());
+	    	System.out.println(response.isValid());
 	    	
 	    	for (String error : response.getErrors()) // if errors 
 	    		System.err.println(error); // print errors

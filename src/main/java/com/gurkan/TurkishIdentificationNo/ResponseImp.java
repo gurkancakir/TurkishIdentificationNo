@@ -11,7 +11,7 @@ public class ResponseImp implements Response{
 		return errors;
 	}
 	
-	public boolean getValid() {
+	public boolean isValid() {
 		return valid;
 	}
 	
