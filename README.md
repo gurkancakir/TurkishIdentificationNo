@@ -21,3 +21,5 @@ System.out.println(response.isValid()); // true or false
 for (String error : response.getErrors()) // if errors 
 	    		System.err.println(error); // print errors 
 ```
+Example Java Client
+[Example Code](https://github.com/gurkancakir/TurkishIdentificationNo/blob/master/src/main/java/com/gurkan/test/ClientTest.java)
